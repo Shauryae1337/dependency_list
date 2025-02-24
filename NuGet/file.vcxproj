@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+
+  <PropertyGroup>
+    <TargetFrameworkVersion>v142</TargetFrameworkVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <NuGetPackage Include="cpprestsdk.v143.UWP" Version="2.10.16">
+      <PrivateAssets>all</PrivateAssets>
+    </NuGetPackage>
+    <NuGetPackage Include="boost_all" Version="1.78.0">
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </NuGetPackage>
+  </ItemGroup>
+</Project>
