@@ -1,0 +1,92 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read https://getcomposer.org/doc/01-basic-usage.md#locking-the-dependencies for more information",
+        "This file is @generated, do not edit by hand"
+    ],
+    "content-hash": "1234567890abcdef",
+    "packages": [
+        {
+            "name": "monolog/monolog",
+            "version": "2.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Seldaek/monolog.git",
+                "reference": "1da188ae0be2fa1150bd16ae76b706d0c2a0ba96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/1da188ae0be2fa1150bd16ae76b706d0c2a0ba96",
+                "reference": "1da188ae0be2fa1150bd16ae76b706d0c2a0ba96",
+                "shasum": "b05c7ebe37ca55f21c1570c97d613a2f47537628"
+            },
+            "require": {
+                "php": ">=7.2",
+                "psr/log": "^1.0"
+            },
+            "provide": {
+                "psr/log-implementation": "1.0|2.0"
+            },
+            "time": "2018-11-05T09:59:45+00:00",
+            "installation-source": "source"
+        },
+        {
+            "name": "symfony/console",
+            "version": "6.0.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/console.git",
+                "reference": "afa9f0ebba30c1e10bdffbc4dafecc65cfcab905"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/console/zipball/afa9f0ebba30c1e10bdffbc4dafecc65cfcab905",
+                "reference": "afa9f0ebba30c1e10bdffbc4dafecc65cfcab905",
+                "shasum": "2eef8d5eaa5555d157ab0c7d7ee61c45861828c9"
+            },
+            "require": {
+                "php": "^7.2.5|^8.0",
+                "symfony/deprecation-contracts": "^2.1",
+                "symfony/polyfill-php73": "^1.20",
+                "symfony/polyfill-php80": "^1.23.0|^2.0.0",
+                "symfony/service-contracts": "^2.0|^3.0|^4.0"
+            },
+            "time": "2022-12-13T15:38:20+00:00",
+            "installation-source": "source"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "phpstan/phpstan",
+            "version": "1.8.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpstan/phpstan.git",
+                "reference": "40d0b9b1e800a616e676d7226670d3000fa00b96"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/40d0b9b1e800a616e676d7226670d3000fa00b96",
+                "reference": "40d0b9b1e800a616e676d7226670d3000fa00b96",
+                "shasum": "aefc2d5c5eabf6e8c1e6e6c8c8c8c8c8c8c8c8c8c8c8"
+            },
+            "require": {
+                "php": "^7.2|^8.0",
+                "phpstan/phpdoc-parser": "^0.12.15",
+                "symfony/console": "^4.3|^5.0|^6.0"
+            },
+            "time": "2022-12-13T15:38:20+00:00",
+            "installation-source": "source"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {},
+    "platform": {
+        "php": "^7.4|^8.0",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.1.0"
+}
