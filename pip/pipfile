@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "==2.28.1"
+numpy = {version = ">=1.20.0,<2.0.0"}
+pandas = {version = "~=1.4.0", extras = ["data"]}
+matplotlib = {version = "!=3.7.0"}
+
+[dev-packages]
+pytest = "==7.1.2"
+flake8 = "<=6.0.0"
+black = "==23.3.0"
+
+[requires]
+python_version = ">=3.7"
