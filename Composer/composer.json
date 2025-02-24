@@ -1,0 +1,32 @@
+{
+    "name": "example/project",
+    "description": "Example project demonstrating Composer dependency management",
+    "require": {
+        "monolog/monolog": "^2.0",           // Legacy version
+        "symfony/console": "^6.0",          // Modern version
+        "phpunit/phpunit": "^9.5",          // Modern version
+        "doctrine/dbal": "2.13.*",          // Legacy version
+        "twig/twig": "^3.4",                // Modern version
+        "php": "^7.4 || ^8.0",             // Multiple PHP versions
+        "ext-json": "*",                    // Platform requirement
+        "ext-mbstring": "*"                // Platform requirement
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.0",          // Modern static analysis
+        "rector/rector": "^0.15"            // Modern code refactoring
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": false,
+            "dealerdirect/html-injector": false
+        }
+    },
+    "extra": {
+        "merge-plugin": {
+            "include": [
+                "vendor/package1/merged.json",
+                "vendor/package2/merged.json"
+            ]
+        }
+    }
+}
